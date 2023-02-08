@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f5;
+  padding: 20px;
+}
+
+#ticketNo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #f5f5f5;
+  box-shadow: 2px 2px 5px 2px #aaa;
+  width: 25%;
+  height: 20%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#ticketNo p{
+  display: inline-block;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+
+#getTicket {
+  display: flex;
+}
+
+
+.counter-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 50px;
+  height: 30%;
+}
+.counter {
+  padding: 10px;
+  padding-left: 15px;
+  background: #f5f5f5;
+  box-shadow: 2px 2px 5px 2px #aaa;
+  border-radius: 10px;
+  margin: 20px;
+  width: 10vw;
+  height: 60%;
+  /* width: 50%; */
+}
+
+label {
+  display: inline-block;
+  width: 55%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.circle-online {
+  display: inline-block;
+  align-content: right;
+  margin-left: 50px;
+  height: 10px;
+  width: 10px;
+  border-radius: 25px;
+  background-color: green;
+  margin-right: 10px;
+}
+
+.circle-offline {
+  display: inline-block;
+  align-content: right;
+  margin-left: 50px;
+  height: 10px;
+  width: 10px;
+  border-radius: 25px;
+  background-color: gray;
+  margin-right: 10px;
+}
+
+.circle-busy {
+  display: inline-block;
+  align-content: right;
+  margin-left: 50px;
+  height: 10px;
+  width: 10px;
+  border-radius: 25px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+#circle-online {
+  background-color: green;
+}
+
+#circle-offline {
+  background-color: gray;
+}
+
+#circle-busy {
+  background-color: red;
+}
+
+button {
+  border: 0;
+  background-color: #6d7f6d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #8a988a;
+}
+
+.label-online{
+  color: black;
+}
+
+.label-offline{
+  color: gray;
+}
+
+/***************COUNTER CSS****************/
+.counter-counter-view {
+  margin-top: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  padding-left: 15px;
+  background: #f5f5f5;
+  box-shadow: 2px 2px 5px 2px #aaa;
+  border-radius: 10px;
+  margin: 20px;
+  width: 10%;
+  height: 60%;
+  /* width: 50%; */
+}
+
+.counter-container-counter-view{
+  position: relative;
+  display: flex;
+  top: 60px;
+  justify-content: center;
+}
+
+.button-counter-view {
+  border: 0;
+  background-color: #6d7f6d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.select-view{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.select-view button{
+  border-radius: 8px;
+  width: 8vw;
+  height: 5vh;
+  margin: 10px;
+  font-size: 1vw;
+}

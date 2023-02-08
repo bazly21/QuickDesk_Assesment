@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Queueing System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="ticket.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Customer View</h1>
+        <div id="ticketNo">
+            <p>Now Serving: <span id="nowServe"></span></p> 
+            <p>Last Number: <span id="lastNo"></span></p>
+            <button id="getTicket">Take a number</button>
+        </div>
+
+        <div class="counter-container">
+            <div id="counter1" class="counter">
+                <label id="label1" class="label-offline">Counter 1</label>
+                <div id="circle1" class="circle-offline"></div>
+                <p id="c1"></p>
+            </div>
+
+            <div id="counter2" class="counter">
+                <label id="label2" class="label-offline">Counter 2</label>
+                <div id="circle2" class="circle-offline"></div>
+                <p id="c2"></p>
+            </div>
+
+            <div id="counter3" class="counter">
+                <label id="label3" class="label-offline">Counter 3</label>
+                <div id="circle3" class="circle-offline"></div>
+                <p id="c3"></p>
+            </div>
+
+            <div id="counter4" class="counter">
+                <label id="label4" class="label-offline">Counter 4</label>
+                <div id="circle4" class="circle-offline"></div>
+                <p id="c4"></p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
