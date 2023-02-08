@@ -144,24 +144,3 @@ public:
         return count;
     }
 };
-
-int main()
-{
-    Stack q;
-
-    q.enqueue("Muhammad");
-    q.enqueue("Bazly");
-    q.enqueue("Bin");
-    q.enqueue("Burhan");
-
-    cout << q.size() << endl;
-
-    q.getQueue();
-
-    q.dequeue();
-
-    q.getQueue();
-
-
-    return 0;
-}
